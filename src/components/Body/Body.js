@@ -123,7 +123,7 @@ const Body = () => {
 
   return (
     <div className="flex justify-center">
-      <div className="w-1/2 bg-gray-200 h-max p-8 rounded-lg shadow-lg">
+      <div className=" bg-gray-200 h-max p-8 rounded-lg shadow-lg">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-center mb-4">Expense Tracker</h1>
           <form onSubmit={handleFormSubmit} className="flex items-center">
